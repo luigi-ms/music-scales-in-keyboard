@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5vh 5vw;
+}
+
+button { height: 7vh; }
+
+button:nth-child(5) { margin-bottom: 0; }
+
+.whiteNote {
+  background-color: #F0EFE6;
+  border: 2px solid #262626;
+  width: 75vw;
+  margin-bottom: -7vh;
+}
+
+.whiteNote:active { opacity: 0.4; }
+
+.blackNote {
+  background-color: #262626;
+  border: 2px solid #F0EFE6;
+  width: 50vw;
+  margin-left: 25vw;
+  position: relative;
+  top: 3.5vh;
+}
+
+.blackNote:active { opacity: 0.6; }
